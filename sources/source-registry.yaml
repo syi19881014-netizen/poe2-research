@@ -1,0 +1,33 @@
+sources:
+  - id: ggg-050-patch
+    type: official
+    title: "Content Update 0.5.0 — Return of the Ancients"
+    url: "https://www.pathofexile.com/forum/view-thread/3932540"
+    checked: "2026-08-13"
+    note: "0.5.0 / Runes of Aldur major baseline."
+  - id: poe2db-damage-conversion
+    type: data
+    title: "PoE2DB — Damage Conversion"
+    url: "https://poe2db.tw/us/Damage_conversion"
+    checked: "2026-08-13"
+    note: "Two-step conversion; final-type scaling; DoT cannot be converted."
+  - id: poe2wiki-050
+    type: wiki
+    title: "PoE2 Wiki — Version 0.5.0"
+    url: "https://www.poe2wiki.net/wiki/Version_0.5.0"
+    checked: "2026-08-13"
+    note: "Secondary index of official 0.5.0 notes."
+  - id: ggg-054e
+    type: official
+    title: "0.5.4e maintenance / restart series"
+    url: null
+    checked: "2026-08-13"
+    needs_url_verification: true
+    note: "Knowledge retained from project verification; exact official thread URL must be reattached before citation export."
+  - id: ggg-054f
+    type: official
+    title: "0.5.4f"
+    url: null
+    checked: "2026-08-13"
+    needs_url_verification: true
+    note: "Latest baseline in project; exact official thread URL must be reattached before citation export."
