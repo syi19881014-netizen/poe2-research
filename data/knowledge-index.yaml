@@ -1,5 +1,5 @@
 schema_version: 1
-baseline_version: "0.5.4f"
+baseline_version: "0.5.4"
 updated: "2026-08-13"
 cards:
   - id: KB-001
@@ -22,3 +22,8 @@ cards:
     title: "Modifier Pool、iLvl、Weight、Family 与做装概率模型"
     status: DATA_VERIFIED
     confidence: medium-high
+  - id: KB-005
+    path: endgame/pinnacle-quest-vs-infinite-farm.md
+    title: "0.5 终局 Pinnacle Boss：Quest 与 Infinite Farm 双层架构"
+    status: DATA_VERIFIED
+    confidence: high
