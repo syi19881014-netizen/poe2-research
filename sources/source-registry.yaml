@@ -4,30 +4,65 @@ sources:
     title: "Content Update 0.5.0 — Return of the Ancients"
     url: "https://www.pathofexile.com/forum/view-thread/3932540"
     checked: "2026-08-13"
-    note: "0.5.0 / Runes of Aldur major baseline."
+    note: "0.5.0 / Runes of Aldur major baseline; includes quest vs repeatable Pinnacle architecture."
+  - id: ggg-return-ancients
+    type: official
+    title: "Return of the Ancients reveal"
+    url: "https://pathofexile2.com/ancients"
+    checked: "2026-08-13"
+    note: "Official expansion page: six Endgame storylines and new Pinnacle Bosses."
+  - id: ggg-040-patch
+    type: official
+    title: "Content Update 0.4.0 — The Last of the Druids"
+    url: "https://www.pathofexile.com/forum/view-thread/3883495"
+    checked: "2026-08-13"
+    note: "Official source for Arbiter of Ash forced phase transition and full heal."
+  - id: poe2wiki-050
+    type: wiki
+    title: "PoE2 Wiki — Version 0.5.0"
+    url: "https://www.poe2wiki.net/wiki/Version_0.5.0"
+    checked: "2026-08-13"
+    note: "Secondary index of official 0.5.0 notes; confirms quest and Infinite Farm versions."
+  - id: poe2wiki-054
+    type: wiki
+    title: "PoE2 Wiki — Version 0.5.4"
+    url: "https://www.poe2wiki.net/wiki/Version_0.5.4"
+    checked: "2026-08-13"
+    note: "Current verified public baseline: 0.5.4 plus Hotfix 1–4."
+  - id: poe2wiki-arbiter-divinity
+    type: wiki
+    title: "PoE2 Wiki — The Arbiter of Divinity"
+    url: "https://www.poe2wiki.net/wiki/The_Arbiter_of_Divinity"
+    checked: "2026-08-13"
+    note: "Quest level 79, repeatable level 82, unlimited respawns on regular encounter, Fortress completion effect."
+  - id: poe2wiki-arbiter-ash
+    type: wiki
+    title: "PoE2 Wiki — The Arbiter of Ash"
+    url: "https://www.poe2wiki.net/wiki/The_Arbiter_of_Ash"
+    checked: "2026-08-13"
+    note: "Quest level 74, repeatable level 82, phase transition and current encounter details."
   - id: poe2db-damage-conversion
     type: data
     title: "PoE2DB — Damage Conversion"
     url: "https://poe2db.tw/us/Damage_conversion"
     checked: "2026-08-13"
     note: "Two-step conversion; final-type scaling; DoT cannot be converted."
-  - id: poe2wiki-050
-    type: wiki
-    title: "PoE2 Wiki — Version 0.5.0"
-    url: "https://www.poe2wiki.net/wiki/Version_0.5.0"
+  - id: poe2db-arbiter-divinity
+    type: data
+    title: "PoE2DB — Arbiter of Divinity"
+    url: "https://poe2db.tw/us/Arbiter_of_Divinity"
     checked: "2026-08-13"
-    note: "Secondary index of official 0.5.0 notes."
-  - id: ggg-054e
-    type: official
-    title: "0.5.4e maintenance / restart series"
+    note: "Data-side confirmation of Origin Tower progression and five Ancient Mechanisms."
+  - id: poe2db-ailment
+    type: data
+    title: "PoE2DB — Ailment"
+    url: "https://poe2db.tw/us/Ailment"
+    checked: "2026-08-13"
+    note: "General Freeze/Stun/Ailment buildup rules; does not by itself provide boss-specific thresholds."
+  - id: correction-054f
+    type: correction
+    title: "Unsupported 0.5.4f baseline"
     url: null
     checked: "2026-08-13"
-    needs_url_verification: true
-    note: "Knowledge retained from project verification; exact official thread URL must be reattached before citation export."
-  - id: ggg-054f
-    type: official
-    title: "0.5.4f"
-    url: null
-    checked: "2026-08-13"
-    needs_url_verification: true
-    note: "Latest baseline in project; exact official thread URL must be reattached before citation export."
+    obsolete: true
+    note: "Repository bootstrap previously recorded 0.5.4f without a verifiable official source. Current baseline corrected to 0.5.4 + Hotfix 1–4."
