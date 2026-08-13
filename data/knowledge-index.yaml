@@ -1,0 +1,24 @@
+schema_version: 1
+baseline_version: "0.5.4f"
+updated: "2026-08-13"
+cards:
+  - id: KB-001
+    path: mechanics/damage-conversion.md
+    title: "伤害转换与 Gain as Extra 两阶段结算"
+    status: DATA_VERIFIED
+    confidence: high
+  - id: KB-002
+    path: skills/trigger-totem-minion.md
+    title: "Trigger / Totem / Minion 与亲自使用语义边界"
+    status: COMMUNITY_VERIFIED
+    confidence: medium-high
+  - id: KB-003
+    path: classes/weapon-set-passives.md
+    title: "Weapon Set Passive、Spirit 与快照边界"
+    status: COMMUNITY_VERIFIED
+    confidence: medium
+  - id: KB-004
+    path: crafting/modifier-probability-model.md
+    title: "Modifier Pool、iLvl、Weight、Family 与做装概率模型"
+    status: DATA_VERIFIED
+    confidence: medium-high
