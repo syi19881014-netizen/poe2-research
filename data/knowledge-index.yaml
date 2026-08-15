@@ -1,6 +1,6 @@
 schema_version: 1
 baseline_version: "0.5.4e"
-updated: "2026-08-13"
+updated: "2026-08-15"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
@@ -25,5 +25,10 @@ cards:
   - id: KB-005
     path: endgame/pinnacle-quest-vs-infinite-farm.md
     title: "0.5 终局 Pinnacle Boss：Quest 与 Infinite Farm 双层架构"
+    status: DATA_VERIFIED
+    confidence: high
+  - id: KB-006
+    path: farming/grand-expedition-reward-scaling.md
+    title: "0.5.4 Grand Expedition：Remnant、Runic Modifier 与收益放大模型"
     status: DATA_VERIFIED
     confidence: high
