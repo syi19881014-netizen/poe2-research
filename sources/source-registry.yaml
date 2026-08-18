@@ -17,6 +17,18 @@ sources:
     url: "https://www.pathofexile.com/forum/view-thread/3883495"
     checked: "2026-08-13"
     note: "Official source for Arbiter of Ash forced phase transition and full heal."
+  - id: ggg-030-patch
+    type: official
+    title: "Content Update 0.3.0 — The Third Edict"
+    url: "https://www.pathofexile.com/forum/view-thread/3826682"
+    checked: "2026-08-18"
+    note: "Introduced the current asynchronous trade era and Currency Exchange quality-of-life changes."
+  - id: ggg-async-trade-faq
+    type: official
+    title: "Asynchronous Trade FAQ"
+    url: "https://www.pathofexile.com/forum/view-thread/3828185"
+    checked: "2026-08-18"
+    note: "Merchant's Tab seller pays no Gold; buyer pays Gold; Merchant's Tab excludes Currency Exchange-supported items."
   - id: poe2wiki-050
     type: wiki
     title: "PoE2 Wiki — Version 0.5.0"
@@ -27,8 +39,32 @@ sources:
     type: wiki
     title: "PoE2 Wiki — Version 0.5.4"
     url: "https://www.poe2wiki.net/wiki/Version_0.5.4"
-    checked: "2026-08-13"
-    note: "Current verified public baseline: 0.5.4 plus Hotfix 1–4."
+    checked: "2026-08-18"
+    note: "0.5.4 major patch and hotfix index; repository runtime baseline separately tracks verified 0.5.4e maintenance."
+  - id: poe2wiki-currency-exchange
+    type: wiki
+    title: "PoE2 Wiki — Currency exchange market"
+    url: "https://www.poe2wiki.net/wiki/Currency_exchange_market"
+    checked: "2026-08-18"
+    note: "Current unit Gold cost table and supported bulk categories; use as data reference, not an official formula."
+  - id: poe2wiki-async-trade
+    type: wiki
+    title: "PoE2 Wiki — Asynchronous trading"
+    url: "https://www.poe2wiki.net/wiki/Asynchronous_trading"
+    checked: "2026-08-18"
+    note: "Merchant's Tab Gold-tax behavior; exact buyer Gold function remains unknown."
+  - id: poe2wiki-gold
+    type: wiki
+    title: "PoE2 Wiki — Gold"
+    url: "https://www.poe2wiki.net/wiki/Gold"
+    checked: "2026-08-18"
+    note: "Gold is account-bound, non-tradable and used for Currency Exchange / asynchronous trade."
+  - id: poe2wiki-expedition-artifact
+    type: wiki
+    title: "PoE2 Wiki — Expedition Artifact"
+    url: "https://www.poe2wiki.net/wiki/Expedition_Artifact"
+    checked: "2026-08-18"
+    note: "Legacy Expedition Artifacts were removed from Currency Exchange and drop-disabled in 0.5.0."
   - id: poe2wiki-arbiter-divinity
     type: wiki
     title: "PoE2 Wiki — The Arbiter of Divinity"
@@ -65,4 +101,4 @@ sources:
     url: null
     checked: "2026-08-13"
     obsolete: true
-    note: "Repository bootstrap previously recorded 0.5.4f without a verifiable official source. Current baseline corrected to 0.5.4 + Hotfix 1–4."
+    note: "Repository bootstrap previously recorded 0.5.4f without a verifiable official source. Current baseline is 0.5.4e."
