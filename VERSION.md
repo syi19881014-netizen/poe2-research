@@ -1,10 +1,10 @@
 # Current Research Baseline
 
 - Game: Path of Exile 2
-- Research baseline: **0.5.4e Maintenance**
+- Research baseline: **0.5.4f**
 - League/era: **Runes of Aldur / Return of the Ancients**
-- Latest verified version date: **2026-07-31**
-- Baseline checked: **2026-08-13**
+- Latest verified version date: **2026-08-12**
+- Baseline checked: **2026-08-19**
 - Repository schema: **v1**
 
 ## Version rule
@@ -16,14 +16,25 @@
 - 0.5.4 — 2026-06-25
 - 0.5.4 Hotfix 1–4 — 2026-06-25 至 2026-06-29
 - 0.5.4b / c / d — 2026-07
-- **0.5.4e Maintenance — 2026-07-31**
+- 0.5.4e Maintenance — 2026-07-31
+- **0.5.4f Patch Notes — 2026-08-12**
+- **0.5.4f Hotfix — 2026-08-12**
 
-0.5.4e Maintenance 的已核验改动仅有：
-1. 修复 Grand Expeditions 地下区域不生成；
-2. 修复 PlayStation 部分物体不渲染。
+## 0.5.4f verified changes
+
+GGG 官方论坛 `0.5.4f Patch Notes`（Stacey_GGG，2026-08-12）确认：
+1. 修复锁定目标发生在技能启动极短窗口时，技能可能朝错误方向释放；
+2. 修复变身状态被部分 Boss 抓取技能命中后可能无限锁动画；
+3. 修复冲刺后松开输入有时会额外 Dodge Roll；
+4. 修复变身后切回 Quarterstaff 时 Charged Staff 的 energy waves 无法继续触发；
+5. 修复部分 MTX、PlayStation 客户端及 instance crash。
+
+同日 `0.5.4f Hotfix` 修复非英语语言下 Trade Market UI 未翻译。
 
 ## Correction note
 
-2026-08-13 早些时候，因未找到 GGG 原始线程 URL，仓库将基线暂时退回 `0.5.4 + Hotfix 1–4`。随后通过 GGG Staff Tracker 镜像重新确认 `Alexander_GGG` 于 2026-07-31 发布了 `0.5.4e Maintenance`，因此恢复 0.5.4e 为当前已验证版本基线。
+2026-08-13 因当时未找到 GGG 原始线程，仓库曾将 `0.5.4f` 标记为未证实并把基线回退到 0.5.4e。2026-08-19 重新通过 Reddit 帖子的官方链接直接打开并核验 GGG 原始论坛线程：
+- https://www.pathofexile.com/forum/view-thread/3996513
+- https://www.pathofexile.com/forum/view-thread/3996590/page/1
 
-仍**没有可靠证据支持 0.5.4f**；在找到 GGG 原始公告前，不把 0.5.4f 作为事实使用。
+因此此前“0.5.4f 未证实”的结论正式失效，当前基线更新为 **0.5.4f**。
