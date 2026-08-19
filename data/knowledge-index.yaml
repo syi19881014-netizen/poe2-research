@@ -1,6 +1,6 @@
 schema_version: 1
-baseline_version: "0.5.4e"
-updated: "2026-08-18"
+baseline_version: "0.5.4f"
+updated: "2026-08-19"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
