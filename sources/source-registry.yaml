@@ -29,6 +29,18 @@ sources:
     url: "https://www.pathofexile.com/forum/view-thread/3828185"
     checked: "2026-08-18"
     note: "Merchant's Tab seller pays no Gold; buyer pays Gold; Merchant's Tab excludes Currency Exchange-supported items."
+  - id: ggg-054f-patch
+    type: official
+    title: "0.5.4f Patch Notes"
+    url: "https://www.pathofexile.com/forum/view-thread/3996513"
+    checked: "2026-08-19"
+    note: "Stacey_GGG, 2026-08-12. Targeting-direction fix; shapeshift Boss-grab lock fix; sprint/Dodge Roll fix; Charged Staff energy-wave recovery after shapeshift; crash/MTX fixes."
+  - id: ggg-054f-hotfix
+    type: official
+    title: "0.5.4f Hotfix"
+    url: "https://www.pathofexile.com/forum/view-thread/3996590/page/1"
+    checked: "2026-08-19"
+    note: "Stacey_GGG, 2026-08-12. Fixes Trade Market UI translation in non-English languages."
   - id: poe2wiki-050
     type: wiki
     title: "PoE2 Wiki — Version 0.5.0"
@@ -40,7 +52,7 @@ sources:
     title: "PoE2 Wiki — Version 0.5.4"
     url: "https://www.poe2wiki.net/wiki/Version_0.5.4"
     checked: "2026-08-18"
-    note: "0.5.4 major patch and hotfix index; repository runtime baseline separately tracks verified 0.5.4e maintenance."
+    note: "0.5.4 major patch and hotfix index; minor lettered patches may lag behind this version-history page."
   - id: poe2wiki-currency-exchange
     type: wiki
     title: "PoE2 Wiki — Currency exchange market"
@@ -97,8 +109,8 @@ sources:
     note: "General Freeze/Stun/Ailment buildup rules; does not by itself provide boss-specific thresholds."
   - id: correction-054f
     type: correction
-    title: "Unsupported 0.5.4f baseline"
-    url: null
-    checked: "2026-08-13"
-    obsolete: true
-    note: "Repository bootstrap previously recorded 0.5.4f without a verifiable official source. Current baseline is 0.5.4e."
+    title: "0.5.4f verification correction"
+    url: "https://www.pathofexile.com/forum/view-thread/3996513"
+    checked: "2026-08-19"
+    obsolete: false
+    note: "Repository previously marked 0.5.4f unsupported because the original GGG thread had not been located. The official thread is now directly verified; 0.5.4f is the current research baseline."
