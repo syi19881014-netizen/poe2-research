@@ -1,6 +1,6 @@
 schema_version: 1
 baseline_version: "0.5.4f"
-updated: "2026-08-19"
+updated: "2026-08-20"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
@@ -37,3 +37,8 @@ cards:
     title: "0.5.4e 交易经济：Currency Exchange、Merchant's Tab 与 Gold 机会成本"
     status: DATA_VERIFIED
     confidence: high
+  - id: KB-008
+    path: mechanics/pinnacle-control-thresholds.md
+    title: "0.5.4f Pinnacle 控制：Freeze、Heavy Stun 与 Electrocute 阈值"
+    status: DATA_VERIFIED
+    confidence: medium-high
