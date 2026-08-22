@@ -1,6 +1,6 @@
 schema_version: 1
 baseline_version: "0.5.4f"
-updated: "2026-08-20"
+updated: "2026-08-22"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
@@ -42,3 +42,8 @@ cards:
     title: "0.5.4f Pinnacle 控制：Freeze、Heavy Stun 与 Electrocute 阈值"
     status: DATA_VERIFIED
     confidence: medium-high
+  - id: KB-009
+    path: skills/meta-trigger-invocation-self-cast.md
+    title: "0.5.4f Trigger / Meta / Invocation / self-cast 技术语义矩阵"
+    status: DATA_VERIFIED
+    confidence: high
