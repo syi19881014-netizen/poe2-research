@@ -1,6 +1,6 @@
 schema_version: 1
 baseline_version: "0.5.4f"
-updated: "2026-08-22"
+updated: "2026-08-25"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
@@ -45,5 +45,10 @@ cards:
   - id: KB-009
     path: skills/meta-trigger-invocation-self-cast.md
     title: "0.5.4f Trigger / Meta / Invocation / self-cast 技术语义矩阵"
+    status: DATA_VERIFIED
+    confidence: high
+  - id: KB-010
+    path: classes/meta-energy-invocation-passives.md
+    title: "0.5.4f Meta Energy / Invocation 被动、Invoker 与 Breakpoint"
     status: DATA_VERIFIED
     confidence: high
