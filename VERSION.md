@@ -3,13 +3,13 @@
 - Game: Path of Exile 2
 - Research baseline: **0.5.4f**
 - League/era: **Runes of Aldur / Return of the Ancients**
-- Latest verified version date: **2026-08-12**
-- Baseline checked: **2026-08-19**
+- Latest verified live version date: **2026-08-12**
+- Baseline checked: **2026-08-26**
 - Repository schema: **v1**
 
 ## Version rule
 
-`research baseline` 只表示知识库当前优先核验的版本，不意味着所有知识卡都已在该版本重新实测。每张卡必须单独查看 `last_verified` 与 `status`。
+`research baseline` 只表示知识库当前优先核验的实装版本，不意味着所有知识卡都已在该版本重新实测。每张卡必须单独查看 `last_verified` 与 `status`。
 
 ## Current verified chain
 
@@ -19,6 +19,16 @@
 - 0.5.4e Maintenance — 2026-07-31
 - **0.5.4f Patch Notes — 2026-08-12**
 - **0.5.4f Hotfix — 2026-08-12**
+
+## Confirmed forward roadmap
+
+- **0.5.5** — GGG 已确认会在 2026-08-27 PDT 的 GGG Live 中预览；截至本次核验尚未发布，因此不得把 0.5.5 未公开改动写入当前 0.5.4f 机制结论。
+- **Path of Exile 2 1.0 full release — 2026-12-11 PST** — GGG 于 gamescom Opening Night Live 后正式公告。
+- **Duelist** — 已确认将在 1.0 正式加入，属于剑系近战职业；当前 0.5.4f 不可用。
+- GGG 的 1.0 发布资料还确认完整版本将补齐剩余剧情 Acts；具体技能、升华、被动、物品、做装与终局改动等待后续官方材料再建立版本 Diff。
+
+Official 1.0 announcement:
+- https://www.pathofexile.com/forum/view-thread/3999366
 
 ## 0.5.4f verified changes
 
@@ -37,4 +47,4 @@ GGG 官方论坛 `0.5.4f Patch Notes`（Stacey_GGG，2026-08-12）确认：
 - https://www.pathofexile.com/forum/view-thread/3996513
 - https://www.pathofexile.com/forum/view-thread/3996590/page/1
 
-因此此前“0.5.4f 未证实”的结论正式失效，当前基线更新为 **0.5.4f**。
+因此此前“0.5.4f 未证实”的结论正式失效，当前实装基线为 **0.5.4f**。
