@@ -1,6 +1,6 @@
 schema_version: 1
 baseline_version: "0.5.4f"
-updated: "2026-08-25"
+updated: "2026-08-27"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
@@ -50,5 +50,10 @@ cards:
   - id: KB-010
     path: classes/meta-energy-invocation-passives.md
     title: "0.5.4f Meta Energy / Invocation 被动、Invoker 与 Breakpoint"
+    status: DATA_VERIFIED
+    confidence: high
+  - id: KB-011
+    path: crafting/greater-perfect-lock-omen-decision-tree.md
+    title: "0.5.4f Greater/Perfect Currency + Hinekora's Lock + Omen 做装决策树"
     status: DATA_VERIFIED
     confidence: high
