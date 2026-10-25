@@ -2,6 +2,13 @@
 
 优先级：P0 > P1 > P2。
 
+## P0 — 2026-10-25 newly verified priorities
+
+- [ ] Concussive Runes × Repulsion Wave: test wand/no Martial Weapon vs two Martial Weapon base damage ranges; isolate Runic Shockwave and gem-level scaling.
+- [ ] Trade stat min/max filters: reproduce after Oct 22 maintenance and check GGG confirmation of fix before price/market conclusions.
+- [ ] Review 0.5.4f knowledge cards against 0.5.5e rather than assuming universal compatibility.
+- [ ] Barrage/Twister Gemling charge retention: compute actual gem quality + Ascendancy sources and independently test 100% threshold.
+
 ## P0 — 当前答案可靠性直接依赖
 
 - [ ] 重新挂接 0.5.4e / 0.5.4f 官方线程精确 URL。
