@@ -1,5 +1,13 @@
 # Knowledge Changelog
 
+## 2026-10-25 — Baseline catch-up and KB-013
+
+- 发现仓库 VERSION.md 仍停留在 0.5.4f，现以 GGG 官方 0.5.5e Patch Notes 校正版本参考至 0.5.5e；不代表全部旧知识卡已完成新版实测。
+- 新增 KB-013：Mark_GGG 解释武器基础攻击伤害；Concussive Runes / Repulsion Wave 非武器基础伤害特例仍需 A/B 实验，不能用通用解释覆盖特例。
+- 记录 2026-10-23 交易站 stat min/max 过滤器异常报告及 GGG 正在调查；未证实修复。
+- 记录 2026-10-19–25 周报；新版本无平衡数值调整的已确认依据。
+- 将旧卡 0.5.4f 数值视为历史作用域，后续逐卡执行 0.5.5e Diff。
+
 ## 2026-08-19 — 0.5.4f officially verified
 
 - 直接核验 GGG 官方论坛 `0.5.4f Patch Notes` 与同日 Hotfix，当前知识基线由 0.5.4e 更新为 **0.5.4f**。
