@@ -1,50 +1,33 @@
 # Current Research Baseline
 
 - Game: Path of Exile 2
-- Research baseline: **0.5.4f**
-- League/era: **Runes of Aldur / Return of the Ancients**
-- Latest verified live version date: **2026-08-12**
-- Baseline checked: **2026-08-26**
-- Repository schema: **v1**
+- Latest official patch found: **0.5.5e** (GGG patch notes dated 2026-10-05)
+- Research baseline checked: **2026-10-25**
+- Current leagues: **Forbidden Rites** (separate fresh economy), **Runes of Aldur** (separate economy), Standard and variants
+- Repository schema: v1
 
-## Version rule
+## Evidence caveat
+This is the current **patch-level reference**, not a claim that every existing knowledge card has been retested under 0.5.5e. Cards with 0.5.4f/older baselines retain their historical scope and require an explicit diff.
 
-`research baseline` 只表示知识库当前优先核验的实装版本，不意味着所有知识卡都已在该版本重新实测。每张卡必须单独查看 `last_verified` 与 `status`。
+## Confirmed patch chain
+- 0.5.4f — 2026-08-12 (historical baseline)
+- 0.5.5 — 2026-09-02 notes; Forbidden Rites started 2026-09-04 PDT
+- 0.5.5b — 2026-09-11 (Expedition natural-spawn fix, Expedition/Temple/Delirium Tablet drop-rate increase)
+- 0.5.5c — 2026-09-17 (Legacy of Precursors quest participation rules; Trial/Runesmithing fixes)
+- 0.5.5d — 2026-09-28 (Azmeri manifest chance fix; Wildwood/Delirium pause fix; Tablet UI)
+- **0.5.5e — 2026-10-05** (Ritual start after certain bosses; Tomb of the Fallen Knight access; loading and graphics)
+- 2026-10-22: GGG announced ~15–20 minutes of realm maintenance. This is NOT a numbered balance patch.
+- No later numbered patch was found in the official forum and continuously checked patch-note index as of 2026-10-25.
 
-## Current verified chain
+## This week's official developer clarifications
+- 2026-10-23/24: Mark_GGG clarified that attack base damage normally comes from an equipped Martial Weapon, with an attack skill specifying its percentage of that base. The exact Concussive Runes + weapon-independent Repulsion Wave exception is NOT resolved by the generic reply.
+- 2026-10-23: Clint acknowledged a trade-site report that stat-filter min/max bounds were not applied after maintenance; investigation announced, fix not confirmed by this check.
+- 2026-10-19: Full-release registration promotion reiterated 2026-12-11 PST free-to-play launch. Registration requires email confirmation and is separate from Early Access purchase.
 
-- 0.5.4 — 2026-06-25
-- 0.5.4 Hotfix 1–4 — 2026-06-25 至 2026-06-29
-- 0.5.4b / c / d — 2026-07
-- 0.5.4e Maintenance — 2026-07-31
-- **0.5.4f Patch Notes — 2026-08-12**
-- **0.5.4f Hotfix — 2026-08-12**
-
-## Confirmed forward roadmap
-
-- **0.5.5** — GGG 已确认会在 2026-08-27 PDT 的 GGG Live 中预览；截至本次核验尚未发布，因此不得把 0.5.5 未公开改动写入当前 0.5.4f 机制结论。
-- **Path of Exile 2 1.0 full release — 2026-12-11 PST** — GGG 于 gamescom Opening Night Live 后正式公告。
-- **Duelist** — 已确认将在 1.0 正式加入，属于剑系近战职业；当前 0.5.4f 不可用。
-- GGG 的 1.0 发布资料还确认完整版本将补齐剩余剧情 Acts；具体技能、升华、被动、物品、做装与终局改动等待后续官方材料再建立版本 Diff。
-
-Official 1.0 announcement:
-- https://www.pathofexile.com/forum/view-thread/3999366
-
-## 0.5.4f verified changes
-
-GGG 官方论坛 `0.5.4f Patch Notes`（Stacey_GGG，2026-08-12）确认：
-1. 修复锁定目标发生在技能启动极短窗口时，技能可能朝错误方向释放；
-2. 修复变身状态被部分 Boss 抓取技能命中后可能无限锁动画；
-3. 修复冲刺后松开输入有时会额外 Dodge Roll；
-4. 修复变身后切回 Quarterstaff 时 Charged Staff 的 energy waves 无法继续触发；
-5. 修复部分 MTX、PlayStation 客户端及 instance crash。
-
-同日 `0.5.4f Hotfix` 修复非英语语言下 Trade Market UI 未翻译。
-
-## Correction note
-
-2026-08-13 因当时未找到 GGG 原始线程，仓库曾将 `0.5.4f` 标记为未证实并把基线回退到 0.5.4e。2026-08-19 重新通过 Reddit 帖子的官方链接直接打开并核验 GGG 原始论坛线程：
-- https://www.pathofexile.com/forum/view-thread/3996513
-- https://www.pathofexile.com/forum/view-thread/3996590/page/1
-
-因此此前“0.5.4f 未证实”的结论正式失效，当前实装基线为 **0.5.4f**。
+## Sources
+- https://www.pathofexile.com/forum/view-thread/4009785
+- https://www.pathofexile.com/forum/view-thread/4011458
+- https://www.pathofexile.com/forum/view-thread/4011598
+- https://www.pathofexile.com/forum/view-thread/4011578
+- https://www.pathofexile.com/forum/view-thread/4011278
+- https://poepatchnotes.com/poe2
