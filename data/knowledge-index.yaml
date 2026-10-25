@@ -1,6 +1,6 @@
 schema_version: 1
-baseline_version: "0.5.4f"
-updated: "2026-08-29"
+baseline_version: "0.5.5e"
+updated: "2026-10-25"
 cards:
   - id: KB-001
     path: mechanics/damage-conversion.md
@@ -62,3 +62,8 @@ cards:
     title: "0.5.4f Atziri's Temple：入口链、双阶段Boss与Orb of Sacrifice"
     status: DATA_VERIFIED
     confidence: high
+  - id: KB-013
+    path: mechanics/concussive-runes-attack-base-exception.md
+    title: "Attack base damage / Concussive Runes / Repulsion Wave 特例"
+    status: NEEDS_RETEST
+    confidence: medium
