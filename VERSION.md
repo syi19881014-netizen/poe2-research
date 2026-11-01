@@ -1,8 +1,8 @@
 # Current Research Baseline
 
 - Game: Path of Exile 2
-- Latest official patch found: **0.5.5e** (GGG patch notes dated 2026-10-05)
-- Research baseline checked: **2026-10-25**
+- Latest official patch found: **0.5.5e Hotfix 1** (GGG posted 2026-10-27 PDT; indexed 2026-10-28; visual minimap fix only)
+- Research baseline checked: **2026-11-01**
 - Current leagues: **Forbidden Rites** (separate fresh economy), **Runes of Aldur** (separate economy), Standard and variants
 - Repository schema: v1
 
@@ -17,12 +17,19 @@ This is the current **patch-level reference**, not a claim that every existing k
 - 0.5.5d — 2026-09-28 (Azmeri manifest chance fix; Wildwood/Delirium pause fix; Tablet UI)
 - **0.5.5e — 2026-10-05** (Ritual start after certain bosses; Tomb of the Fallen Knight access; loading and graphics)
 - 2026-10-22: GGG announced ~15–20 minutes of realm maintenance. This is NOT a numbered balance patch.
-- No later numbered patch was found in the official forum and continuously checked patch-note index as of 2026-10-25.
+- **0.5.5e Hotfix 1 — 2026-10-27 PDT / 2026-10-28 indexed**: minimap landscape geometry visual fix; client restart required, no server restart. Not a new numbered balance patch.
+- No 0.5.5f or newer numbered patch found as of 2026-11-01.
 
-## This week's official developer clarifications
+## Earlier official developer clarifications (2026-10-19 to 25)
 - 2026-10-23/24: Mark_GGG clarified that attack base damage normally comes from an equipped Martial Weapon, with an attack skill specifying its percentage of that base. The exact Concussive Runes + weapon-independent Repulsion Wave exception is NOT resolved by the generic reply.
 - 2026-10-23: Clint acknowledged a trade-site report that stat-filter min/max bounds were not applied after maintenance; investigation announced, fix not confirmed by this check.
 - 2026-10-19: Full-release registration promotion reiterated 2026-12-11 PST free-to-play launch. Registration requires email confirmation and is separate from Early Access purchase.
+
+## Official roadmap checkpoint (2026-10-29)
+- GGG announced the **Path of Exile 2 1.0 Full Reveal** for ExileCon, Nov 6 PST, 12:30 pre-show / 13:00 keynote; Beijing Nov 7 04:30/05:00. Announcement does not mean 1.0 is live.
+- Previously confirmed 1.0 free-to-play launch: Dec 11, 2026 PST. Final content details still require official reveal.
+- Community-maintained PoE2DB 1.0 page includes a 'Wishing Well'; do not promote it to official skill/ascendancy patch notes.
+- See research/updates/2026-11-01-weekly.md for currency snapshots and evidence limitations.
 
 ## Sources
 - https://www.pathofexile.com/forum/view-thread/4009785
@@ -31,3 +38,6 @@ This is the current **patch-level reference**, not a claim that every existing k
 - https://www.pathofexile.com/forum/view-thread/4011578
 - https://www.pathofexile.com/forum/view-thread/4011278
 - https://poepatchnotes.com/poe2
+- https://www.pathofexile.com/forum/view-thread/4012026
+- https://store.steampowered.com/app/2694490/Path_of_Exile_2/
+- https://poe2db.tw/Version_1.0.0
