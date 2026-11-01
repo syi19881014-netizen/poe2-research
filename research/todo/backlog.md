@@ -2,6 +2,13 @@
 
 优先级：P0 > P1 > P2。
 
+## P0 — 2026-11-01 / ExileCon week
+
+- [ ] Nov 7 Beijing 04:30/05:00: collect official 1.0 full reveal and distinguish announced, preview/demo, shipped, and datamined content.
+- [ ] Prepare a 0.5.5e Hotfix 1 → 1.0 official change matrix: class, Ascendancy, skills, supports, weapons, passives, items, crafting, Atlas, Boss, Farm, league, terminology.
+- [ ] Verify 1.0 announcement with official GGG/Steam primary sources; PoE2DB `Wishing Well` is not an official patch note.
+- [ ] Keep Forbidden Rites softcore FX snapshots timestamped and separated from HC/Runes of Aldur; do not treat market listings as completed sales.
+
 ## P0 — 2026-10-25 newly verified priorities
 
 - [ ] Concussive Runes × Repulsion Wave: test wand/no Martial Weapon vs two Martial Weapon base damage ranges; isolate Runic Shockwave and gem-level scaling.
